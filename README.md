@@ -10,3 +10,8 @@ Given the regulatory role that miRNAs have on gene expression and the molecular 
 To characterise the miRNA profile across early gestation in human placenta, Illumina high-throughput sequencing was performed on miRNA libraries from chorionic villous samples from 96 singleton pregnancies after elective termination (44 female and 52 male bearing pregnancies).
 
 Using a multiple regression (1) we performed differential miRNA expression to compare groups (≤ 10 wks’ and > 10 wks’) directly. This however risks the loss of true biological signal if male and female bearing pregnancies are responding differently throughout early gestation. Using a  model with an interaction term (2) allowed for comparison between groups within each fetal sex achieving the aim of treating the two sexes separately, but comparing the ≤ 10 wks’ and > 10 wks’ groups without sub-setting the total counts matrix and loosing important statistical information.
+
+(1)                𝒚=𝜷_(𝒐 )+〖𝜷_(𝟏 ) 𝒙_𝟏+ 𝜷〗_(𝟐 ) 𝒙_𝟐+ 𝜺  
+
+(2)                𝒚=𝜷_(𝒐 )+𝜷_(𝟏 ) 𝒙_𝟏+𝜷_(𝟐 ) 𝒙_𝟐+𝜷_(𝟑 ) 𝒙_𝟏  × 𝒙_𝟐+ 𝜺  
+
