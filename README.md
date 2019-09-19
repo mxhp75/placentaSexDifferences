@@ -11,7 +11,7 @@ To characterise the miRNA profile across early gestation in human placenta, Illu
 
 Using a multiple regression (1) we performed differential miRNA expression to compare groups (≤ 10 wks’ and > 10 wks’) directly. This however risks the loss of true biological signal if male and female bearing pregnancies are responding differently throughout early gestation. Using a  model with an interaction term (2) allowed for comparison between groups within each fetal sex achieving the aim of treating the two sexes separately, but comparing the ≤ 10 wks’ and > 10 wks’ groups without sub-setting the total counts matrix and loosing important statistical information.
 
-(1)                𝒚=𝜷<sub>0</sub> +〖𝜷_(𝟏 ) 𝒙_𝟏+ 𝜷〗_(𝟐 ) 𝒙_𝟐+ 𝜺  
+(1)                𝒚=𝜷<sub>0</sub> +𝜷<sub>1</sub> 𝒙<sub>1</sub>+ 𝜷<sub>2</sub> 𝒙_𝟐+ 𝜺  
 
-(2)                𝒚=𝜷_(𝒐 )+𝜷_(𝟏 ) 𝒙_𝟏+𝜷_(𝟐 ) 𝒙_𝟐+𝜷_(𝟑 ) 𝒙_𝟏  × 𝒙_𝟐+ 𝜺  
+(2)                𝒚=𝜷<sub>0</sub>+𝜷<sub>1</sub> 𝒙<sub>1</sub>+𝜷<sub>2</sub> 𝒙<sub>2</sub>+𝜷<sub>3</sub> 𝒙<sub>1</sub>  × 𝒙<sub>2</sub>+ 𝜺  
 
