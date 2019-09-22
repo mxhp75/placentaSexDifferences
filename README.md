@@ -1,6 +1,14 @@
 # placentaSexDifferences
 Extended methods to be read in conjunction with my Florey Post Graduate Research Conference poster #53
 
+## Introduction
+
+The human placenta is a complex, rapidly developing, and highly regulated transient organ shared between two genetically unique individuals. It is responsible for the supply of nutrients from the mother to the developing fetus, production of hormones, gas exchange, and the elimation of wastes from the fetus.
+
+Placental development involves processes such as cell-cell adhesion, differentiation, angiogenesis, proliferation, and the migration and invasion of placental cells, all regulated (at least in part) by small non-coding RNAs known as microRNA (miRNA). miRNAs are short ~22 nt long non-coding RNAs that perform post-transcritptional regulation of mRNA transcripts in the cytoplasm by either target transcript degradation or repression.
+
+Many pregnancy complications are the result of placental insufficiency, induced by aberrant placental development or function. Male bearing pregnancies employ different growth strategies to female bearing pregnancies, and are more likely to result in pregnancy complications. Understanding normal placental development can give us insight into pregnancy health, and the potential development development of pregnancy complications.
+
 ## Hypothesis
 
 Given the regulatory role that miRNAs have on gene expression and the molecular changes that occur across early gestation, in particular the purported introduction of oxygenated maternal blood between approximately 8-12 weeks’ gestation, we expect to observe differential miRNA expression between placenta from <= 10 weeks’ gestation and > 10 weeks’ gestation. Further, given the different growth strategies employed by the female and male bearing pregnancy, we hypothesise that these differences are not identical between the placenta of each fetal sex.
